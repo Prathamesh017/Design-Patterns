@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    /* === Output & File Paths === */
+    "rootDir": "./",
+    "outDir": "./dist",
+
+    /* === Module & Language === */
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ESNext",
+    "noEmit": false,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* === Type Checking === */
+    "strict": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+
+    /* === Source Maps === */
+    "sourceMap": true,
+
+    /* === Other === */
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["main.ts", "code/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
