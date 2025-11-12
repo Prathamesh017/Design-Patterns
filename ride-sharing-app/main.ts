@@ -1,7 +1,7 @@
-import Customer from "./code/customer.js";
-import Driver, { VehicleType } from "./code/driver.js";
-import { Location } from "./code/location.js";
-import Ride from "./code/ride.js";
+import Customer from "./v1-code/customer.js";
+import Driver, { VehicleType } from "./v1-code/driver.js";
+import { Location } from "./v1-code/location.js";
+import Ride from "./v1-code/ride.js";
 
 
 class Main{
