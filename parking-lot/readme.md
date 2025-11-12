@@ -1,0 +1,1 @@
+always add .js in dist file for running imports related issues
